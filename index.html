@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Patient Dashboard</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-navbar">
+        <span class="back-arrow">&#8592;</span>
+        <span class="card-title">View Patient</span>
+      </div>
+      <div class="line"></div>
+      <div class="patient-info">
+        <div class="patient-details">
+          S. Meena F/23
+          <br>
+          <span class="patient-id">Patient ID: 12345</span>
+        </div>
+        <span class="patient-icon"><i class="fa fa-user"></i></span>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress">
+          <div class="text-above">Goal Reached</div>
+          <div class="barOverflow">
+            <div class="bar">
+            </div>
+          </div>
+          <!-- <img src="emg.png" alt="emg" > -->
+          <span class="text-below">40%</span>
+        </div>
+      </div>
+      <div class="patient-details-section">
+        <div class="info-item phn" >
+          <span class="label"> Phone No</span>
+          <span class="data"><i class="fa fa-phone"></i>8022334455</span>
+        </div>
+        <div class="info-item">
+          <span class="label"></i> Email</span>
+          <span class="data "><i class="fa fa-envelope"></i>meena@example.com</span>
+        </div>
+        <div class="info-item bal">
+          <span class="label">Affected Side</span>
+          <span class="data"><i class="fa fa-balance-scale"></i>Bilateral</span>
+        </div>
+        <div class="info-item ortho">
+          <span class="label">Condition</span>
+          <span class="data"><i class="fa fa-stethoscope"></i>Ortho</span>
+        </div>
+        <div class="info-item spc">
+          <span class="label">Speciality</span>
+          <span class="data "><i class="fa fa-medkit"></i>Oesteoarthritis</span>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="card-footer">
+        <span class="footer-title"><i class="fa fa-clipboard"></i>Medical History</span>
+        <span class="footer-details">Hypertension,DM,Hyperthyroidism</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

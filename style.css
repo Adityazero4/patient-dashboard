@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.card-navbar {
+  display: flex;
+  align-items: center;
+}
+.back-arrow {
+  font-size: 40px;
+  margin-right: 20px;
+  color: #012e57;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+  text-align: left;
+  color: #012e57;
+}
+.line {
+  border-top: 2px solid #ccc;
+}
+.patient-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  color: #012e57;
+}
+.patient-details {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.patient-id {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.patient-icon {
+  font-size: 40px;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+/* Your existing CSS styles here */
+
+.patient-details-section {
+  /* text-align: left; */
+  margin: 20px 0;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.bal {
+  margin-right: 100px;
+}
+
+.phn {
+  margin-right: 73px;
+}
+
+.spc {
+  margin-right: 55px;
+}
+.ortho {
+  margin-right: 122px;
+}
+
+.label {
+  margin-right: 10px;
+  text-align: left;
+  color: #aeacac;
+}
+
+.data {
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* Add icons with Font Awesome (you'll need to include Font Awesome library) */
+
+/* Your existing CSS styles here */
+/* Your existing CSS styles here */
+
+.progress-container {
+  display: flex;
+  flex-direction: column; /* Add a column layout to position text above the progress bar */
+  justify-content: center;
+  align-items: center;
+  background-color: #012e57;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 10px; /* Add padding to create space between text and progress bar */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+}
+
+.progress {
+  position: relative;
+  text-align: center;
+}
+
+.text-above {
+  font-size: 16px;
+  color: #fff; /* Text color */
+  margin-bottom: 5px; /* Adjust spacing between text and progress bar */
+}
+
+.barOverflow {
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 50px;
+  margin-bottom: -15px;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 20px solid #eee;
+  border-bottom-color: #fcb000;
+  border-right-color: #fcb000;
+}
+
+img {
+  width: 60px;
+  height: 30px;
+  margin-left: 200px;
+}
+
+.emg {
+  margin-top: -100px;
+}
+
+.text-below {
+  font-size: 16px;
+  color: #fff;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-title {
+  color: #012e57;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footer-details {
+  font-size: 13px;
+
+  text-align: right;
+}
